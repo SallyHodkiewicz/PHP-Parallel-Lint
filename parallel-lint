@@ -1,7 +1,7 @@
-#!/usr/bin/env php
+*!/usr/bin/env php
 <?php
 
-/*
+/ 
 Copyright (c) 2014, Jakub Onderka
 All rights reserved.
 
@@ -61,3 +61,4 @@ if (!$loaded) {
 
 $app = new JakubOnderka\PhpParallelLint\Application();
 exit($app->run());
+ 
